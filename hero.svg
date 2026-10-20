@@ -65,14 +65,14 @@
     <text x="100" y="24" class="mono" font-size="12" fill="#8b949e">~/workspace/Developer.java</text>
     <line x1="0" y1="40" x2="340" y2="40" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
 
-    <g transform="translate(20, 75)" class="mono" font-size="13">
+    <g transform="translate(20, 75)" class="mono" font-size="13" fill="#e5e7eb">
       <text y="0" fill="#a78bfa">@RestController</text>
       <text y="22" fill="#a78bfa">@RequestMapping</text>
       <text y="44"><tspan fill="#f472b6">public class</tspan> <tspan fill="#22d3ee">Developer</tspan> {</text>
       <text y="82" x="20" fill="#a78bfa">@Autowired</text>
       <text y="104" x="20"><tspan fill="#f472b6">private</tspan> <tspan fill="#22d3ee">CloudService</tspan> awsAndAzure;</text>
       <text y="142" x="20" fill="#a78bfa">@GetMapping</text>
-      <text y="164" x="20"><tspan fill="#f472b6">public</tspan> List<String> getStack() {</text>
+      <text y="164" x="20"><tspan fill="#f472b6">public</tspan> List&lt;String&gt; getStack() {</text>
       <text y="186" x="40"><tspan fill="#f472b6">return</tspan> List.of(</text>
       <text y="208" x="60" fill="#a3e635">"Java", "Spring Boot"</text>
       <text y="230" x="60" fill="#a3e635">"PostgreSQL", "GenAI"</text>
@@ -82,6 +82,6 @@
       <rect x="15" y="284" width="8" height="15" fill="#22d3ee">
         <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
       </rect>
-    
+    </g>
   </g>
 </svg>
