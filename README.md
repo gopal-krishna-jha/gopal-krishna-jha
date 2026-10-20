@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="./hero.svg?v=2" width="800" alt="Gopal Krishna Jha - Hero" />
+  <img src="./hero.svg?v=3" width="800" alt="Gopal Krishna Jha - Hero" />
 </div>
 
 <div align="center">
-  <img src="./about-life.svg?v=2" width="800" alt="About and Hobbies" />
+  <img src="./about-life.svg?v=3" width="800" alt="About and Hobbies" />
 </div>
 
 <div align="center">
-  <img src="./stack.svg?v=2" width="800" alt="Tech Orbit and Skills" />
+  <img src="./stack.svg?v=3" width="800" alt="Tech Orbit and Skills" />
 </div>
 
 ### 💻 Comprehensive Tech Stack
@@ -57,8 +57,7 @@
 <br />
 
 <div align="center">
-  <!-- Note: Change to id-dashboard.svg once your GitHub Action runs successfully -->
-  <img src="./id-dashboard-template.svg?v=2" width="800" alt="ID Badge and Dashboard" />
+  <img src="./id-dashboard.svg?v=3" width="800" alt="ID Badge and Dashboard" />
 </div>
 
 ### 🌃 Contributions
@@ -67,7 +66,7 @@
 </div>
 
 <div align="center">
-  <img src="./connect.svg?v=2" width="800" alt="Connect with me" />
+  <img src="./connect.svg?v=3" width="800" alt="Connect with me" />
 </div>
 
 <br />
