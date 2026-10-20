@@ -74,8 +74,8 @@
       <text y="142" x="20" fill="#a78bfa">@GetMapping</text>
       <text y="164" x="20"><tspan fill="#f472b6">public</tspan> List<String> getStack() {</text>
       <text y="186" x="40"><tspan fill="#f472b6">return</tspan> List.of(</text>
-      <text y="208" x="60" fill="#a3e635">"Java"</text>, <text fill="#a3e635">"Spring Boot"</text>
-      <text y="230" x="60" fill="#a3e635">"PostgreSQL"</text>, <text fill="#a3e635">"GenAI"</text>
+      <text y="208" x="60" fill="#a3e635">"Java", "Spring Boot"</text>
+      <text y="230" x="60" fill="#a3e635">"PostgreSQL", "GenAI"</text>
       <text y="252" x="40">);</text>
       <text y="274" x="20">}</text>
       <text y="296">}</text>
