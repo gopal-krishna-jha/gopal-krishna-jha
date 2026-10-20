@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, sans-serif; fill: #ffffff; }
+      .mono { font-family: monospace; }
+      .glass-bg { fill: #0d0e16; }
+    </style>
+    <linearGradient id="aurora" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.10"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="holo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.4"/>
+      <stop offset="33%" stop-color="#f472b6" stop-opacity="0.4"/>
+      <stop offset="66%" stop-color="#a78bfa" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.4"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+    <clipPath id="avatarClip">
+      <rect x="20" y="20" width="120" height="120" rx="8" />
+    </clipPath>
+  </defs>
+
+  <rect width="798" height="398" x="1" y="1" rx="24" class="glass-bg"/>
+  <rect width="798" height="398" x="1" y="1" rx="24" fill="url(#aurora)"/>
+  <rect width="798" height="398" x="1" y="1" rx="24" fill="url(#dots)"/>
+  <rect width="798" height="398" x="1" y="1" rx="24" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+  <g transform="translate(180, -20)">
+    <animateTransform attributeName="transform" type="rotate" values="15;-10;8;-5;3;-1;0" dur="4s" keyTimes="0;0.15;0.3;0.45;0.6;0.75;1" fill="freeze" additive="sum"/>
+    
+    <path d="M 0,0 L -20,120 L 20,120 Z" fill="#0f111a" stroke="#22d3ee" stroke-width="2"/>
+    <text x="-15" y="60" font-size="10" transform="rotate(-85 -15 60)" fill="#22d3ee" class="mono">GOPAL KRISHNA JHA</text>
+    
+    <rect x="-10" y="115" width="20" height="15" rx="3" fill="#cbd5e1"/>
+    <circle cx="0" cy="135" r="8" fill="none" stroke="#cbd5e1" stroke-width="3"/>
+
+    <g transform="translate(-80, 145)">
+      <rect width="160" height="220" rx="10" fill="#0f111a" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+      <rect width="160" height="220" rx="10" fill="url(#holo)" opacity="0.3">
+        <animate attributeName="opacity" values="0.1;0.6;0.1" dur="3s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- PURE SVG GHIBLI-STYLE PORTRAIT -->
+      <g>
+        <rect x="20" y="20" width="120" height="120" rx="8" fill="#7dd3fc"/>
+        <circle cx="100" cy="40" r="15" fill="#fdf4ff" opacity="0.7"/> 
+        <circle cx="120" cy="50" r="20" fill="#fdf4ff" opacity="0.7"/>
+
+        <g clip-path="url(#avatarClip)">
+          <path d="M 25,140 C 35,100 125,100 135,140 Z" fill="#732635"/>
+          <path d="M 60,110 L 80,130 L 100,110 Z" fill="#521723"/>
+          <rect x="70" y="85" width="20" height="30" fill="#d49272"/>
+          <polygon points="70,85 90,85 80,95" fill="#b97858"/>
+          <path d="M 55,50 C 55,20 105,20 105,50 L 105,65 C 105,85 95,95 80,95 C 65,95 55,85 55,65 Z" fill="#f3c6a5"/>
+          <circle cx="55" cy="65" r="6" fill="#e2a884"/>
+          <circle cx="105" cy="65" r="6" fill="#e2a884"/>
+          <ellipse cx="68" cy="65" rx="5" ry="6" fill="#ffffff"/>
+          <ellipse cx="92" cy="65" rx="5" ry="6" fill="#ffffff"/>
+          <circle cx="69" cy="65" r="3" fill="#3b2014"/> 
+          <circle cx="91" cy="65" r="3" fill="#3b2014"/>
+          <circle cx="70" cy="64" r="1" fill="#ffffff"/> 
+          <circle cx="92" cy="64" r="1" fill="#ffffff"/>
+          <path d="M 58,56 Q 68,54 75,56" fill="none" stroke="#18181b" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M 85,56 Q 92,54 102,56" fill="none" stroke="#18181b" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M 80,68 L 78,76 L 81,77" fill="none" stroke="#c48b6c" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M 72,83 Q 80,87 88,83" fill="none" stroke="#b06551" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M 45,55 C 40,20 70,5 90,10 C 110,15 120,35 115,55 C 110,15 80,10 65,20 C 55,25 50,40 45,55 Z" fill="#18181b"/>
+          <path d="M 50,30 L 60,52 L 70,30 L 82,50 L 95,30 L 105,48 L 105,25 Z" fill="#18181b"/>
+        </g>
+      </g>
+      
+      <rect x="20" y="20" width="120" height="120" rx="8" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="100 400" stroke-dashoffset="0">
+        <animate attributeName="stroke-dashoffset" values="0;-500" dur="4s" repeatCount="indefinite" linear="true"/>
+      </rect>
+
+      <rect x="20" y="150" width="25" height="20" rx="4" fill="#eab308"/>
+      <line x1="20" y1="160" x2="45" y2="160" stroke="#000" stroke-width="1" opacity="0.3"/>
+      
+      <text x="55" y="160" font-size="12" font-weight="bold">G. K. JHA</text>
+      <text x="55" y="175" font-size="9" fill="#8b949e">ENG-8402</text>
+      <path d="M 20,195 v 10 M 23,195 v 10 M 28,195 v 10 M 30,195 v 10 M 35,195 v 10 M 40,195 v 10 M 42,195 v 10" stroke="#fff" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <g transform="translate(380, 40)">
+    <text x="0" y="0" font-size="20" font-weight="bold" fill="#22d3ee">System Stats</text>
+    
+    <g transform="translate(0, 20)">
+      <rect width="110" height="70" rx="10" fill="rgba(34, 211, 238, 0.1)" stroke="#22d3ee"/>
+      <text x="15" y="30" font-size="12" fill="#8b949e">Contributions</text>
+      <text x="15" y="55" font-size="22" font-weight="bold" class="mono">{{COMMITS}}</text>
+      
+      <rect x="125" width="110" height="70" rx="10" fill="rgba(167, 139, 250, 0.1)" stroke="#a78bfa"/>
+      <text x="140" y="30" font-size="12" fill="#8b949e">Stars</text>
+      <text x="140" y="55" font-size="22" font-weight="bold" class="mono">{{STARS}}</text>
+      
+      <rect x="250" width="110" height="70" rx="10" fill="rgba(244, 114, 182, 0.1)" stroke="#f472b6"/>
+      <text x="265" y="30" font-size="12" fill="#8b949e">PRs</text>
+      <text x="265" y="55" font-size="22" font-weight="bold" class="mono">{{PRS}}</text>
+    </g>
+
+    <g transform="translate(0, 120)">
+      <text x="0" y="0" font-size="14" fill="#8b949e">Top Repositories</text>
+      <text x="0" y="30" font-size="12" class="mono">AI-Form-Builder</text>
+      <rect x="140" y="20" width="0" height="12" rx="4" fill="#a78bfa">
+        <animate attributeName="width" values="0;200" dur="1.5s" fill="freeze"/>
+      </rect>
+      <text x="0" y="60" font-size="12" class="mono">Java-Microservices</text>
+      <rect x="140" y="50" width="0" height="12" rx="4" fill="#a78bfa">
+        <animate attributeName="width" values="0;150" dur="1.5s" fill="freeze" begin="0.2s"/>
+      </rect>
+      <text x="0" y="90" font-size="12" class="mono">GenAI-RAG-Demo</text>
+      <rect x="140" y="80" width="0" height="12" rx="4" fill="#a78bfa">
+        <animate attributeName="width" values="0;110" dur="1.5s" fill="freeze" begin="0.4s"/>
+      </rect>
+    </g>
+
+    <g transform="translate(0, 250)">
+      <rect width="360" height="60" rx="10" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+      <circle cx="20" cy="30" r="4" fill="#22c55e">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="35" y="26" font-size="12" fill="#8b949e">NOW BUILDING</text>
+      <text x="35" y="46" font-size="14" font-weight="bold">Cloud-native architectures &amp; AI workflows</text>
+    </g>
+  </g>
+</svg>

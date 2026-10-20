@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, sans-serif; fill: #ffffff; }
+      .mono { font-family: monospace; }
+      .glass-bg { fill: #0d0e16; }
+      .subtext { fill: #8b949e; font-size: 13px; }
+    </style>
+    <linearGradient id="aurora" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.10"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.3"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+  </defs>
+
+  <g transform="translate(10, 10)">
+    <rect width="380" height="380" rx="20" class="glass-bg"/>
+    <rect width="380" height="380" rx="20" fill="url(#aurora)"/>
+    <rect width="380" height="380" rx="20" fill="url(#dots)"/>
+    <rect width="380" height="380" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+    
+    <circle cx="25" cy="25" r="5" fill="#ef4444"/>
+    <circle cx="45" cy="25" r="5" fill="#eab308"/>
+    <circle cx="65" cy="25" r="5" fill="#22c55e"/>
+    <rect x="90" y="15" width="270" height="20" rx="10" fill="rgba(255,255,255,0.05)"/>
+    <text x="105" y="29" class="mono" font-size="11" fill="#a78bfa">https://gopal-krishna.dev/capabilities</text>
+    <line x1="0" y1="50" x2="380" y2="50" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+    <g transform="translate(25, 90)">
+      <rect width="40" height="40" rx="10" fill="rgba(34, 211, 238, 0.1)" stroke="#22d3ee" stroke-width="1"/>
+      <text x="15" y="26" font-size="18" fill="#22d3ee">☕</text>
+      <text x="60" y="18" font-size="15" font-weight="bold">Backend Architecture</text>
+      <text x="60" y="38" class="subtext">Java, Spring Boot, Microservices</text>
+
+      <g transform="translate(0, 70)">
+        <rect width="40" height="40" rx="10" fill="rgba(167, 139, 250, 0.1)" stroke="#a78bfa" stroke-width="1"/>
+        <text x="15" y="26" font-size="18" fill="#a78bfa">☁️</text>
+        <text x="60" y="18" font-size="15" font-weight="bold">Cloud &amp; Data Infrastructure</text>
+        <text x="60" y="38" class="subtext">AWS, Azure, PostgreSQL, MySQL</text>
+      </g>
+
+      <g transform="translate(0, 140)">
+        <rect width="40" height="40" rx="10" fill="rgba(244, 114, 182, 0.1)" stroke="#f472b6" stroke-width="1"/>
+        <text x="15" y="26" font-size="18" fill="#f472b6">🧠</text>
+        <text x="60" y="18" font-size="15" font-weight="bold">Generative AI &amp; NLP</text>
+        <text x="60" y="38" class="subtext">RAG, LLMs, Prompt Engineering</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(410, 10)">
+    <rect width="380" height="380" rx="20" class="glass-bg"/>
+    <rect width="380" height="380" rx="20" fill="url(#aurora)"/>
+    <rect width="380" height="380" rx="20" fill="url(#dots)"/>
+    <rect width="380" height="380" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+    
+    <text x="25" y="40" font-size="16" font-weight="bold" fill="#22d3ee">Life &amp; Interests</text>
+
+    <g transform="translate(280, 25)">
+      <circle cx="20" cy="20" r="16" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="4"/>
+      <circle cx="20" cy="20" r="16" fill="none" stroke="#22d3ee" stroke-width="4" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90 20 20)">
+        <animate attributeName="stroke-dashoffset" values="100;20;100" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="20" cy="20" r="10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="4"/>
+      <circle cx="20" cy="20" r="10" fill="none" stroke="#f472b6" stroke-width="4" stroke-dasharray="62" stroke-dashoffset="62" transform="rotate(-90 20 20)">
+        <animate attributeName="stroke-dashoffset" values="62;10;62" dur="4s" repeatCount="indefinite" begin="0.5s"/>
+      </circle>
+    </g>
+
+    <g transform="translate(25, 80)">
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="75" height="3" rx="1.5" fill="rgba(255,255,255,0.2)"/>
+        <rect x="0" y="0" width="75" height="3" rx="1.5" fill="#a78bfa">
+          <animate attributeName="width" values="0;75;75;0" dur="16s" keyTimes="0;0.25;0.98;1" repeatCount="indefinite"/>
+        </rect>
+        <rect x="85" y="0" width="75" height="3" rx="1.5" fill="rgba(255,255,255,0.2)"/>
+        <rect x="85" y="0" width="0" height="3" rx="1.5" fill="#a78bfa">
+          <animate attributeName="width" values="0;0;75;75;0" dur="16s" keyTimes="0;0.25;0.50;0.98;1" repeatCount="indefinite"/>
+        </rect>
+        <rect x="170" y="0" width="75" height="3" rx="1.5" fill="rgba(255,255,255,0.2)"/>
+        <rect x="170" y="0" width="0" height="3" rx="1.5" fill="#a78bfa">
+          <animate attributeName="width" values="0;0;75;75;0" dur="16s" keyTimes="0;0.50;0.75;0.98;1" repeatCount="indefinite"/>
+        </rect>
+        <rect x="255" y="0" width="75" height="3" rx="1.5" fill="rgba(255,255,255,0.2)"/>
+        <rect x="255" y="0" width="0" height="3" rx="1.5" fill="#a78bfa">
+          <animate attributeName="width" values="0;0;75;75;0" dur="16s" keyTimes="0;0.75;0.98;1;1" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g opacity="1">
+        <animate attributeName="opacity" values="1;1;0;0;0;0;1" dur="16s" keyTimes="0;0.23;0.25;0.75;0.98;1;1" repeatCount="indefinite"/>
+        <rect y="20" width="330" height="200" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.1)"/>
+        <text x="165" y="120" font-size="40" text-anchor="middle">📚</text>
+        <text x="165" y="255" font-size="16" text-anchor="middle" font-weight="bold">Reading History &amp; Philosophy</text>
+        <text x="165" y="275" font-size="13" text-anchor="middle" fill="#8b949e">Exploring the cultural roots of civilization.</text>
+      </g>
+
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0" dur="16s" keyTimes="0;0.23;0.25;0.48;0.5;0.98;1" repeatCount="indefinite"/>
+        <rect y="20" width="330" height="200" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.1)"/>
+        <text x="165" y="120" font-size="40" text-anchor="middle">🌌</text>
+        <text x="165" y="255" font-size="16" text-anchor="middle" font-weight="bold">Space Study</text>
+        <text x="165" y="275" font-size="13" text-anchor="middle" fill="#8b949e">Fascinated by astrophysics and the cosmos.</text>
+      </g>
+
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0;1;1;0" dur="16s" keyTimes="0;0.48;0.5;0.73;0.75;0.98;1" repeatCount="indefinite"/>
+        <rect y="20" width="330" height="200" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.1)"/>
+        <text x="165" y="120" font-size="40" text-anchor="middle">⚽</text>
+        <text x="165" y="255" font-size="16" text-anchor="middle" font-weight="bold">Playing Football</text>
+        <text x="165" y="275" font-size="13" text-anchor="middle" fill="#8b949e">Staying active and competitive on the pitch.</text>
+      </g>
+
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0;0;0;1" dur="16s" keyTimes="0;0.73;0.75;0.98;1;1;1" repeatCount="indefinite"/>
+        <rect y="20" width="330" height="200" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.1)"/>
+        <text x="165" y="120" font-size="40" text-anchor="middle">✍️</text>
+        <text x="165" y="255" font-size="16" text-anchor="middle" font-weight="bold">Technical Blogging</text>
+        <text x="165" y="275" font-size="13" text-anchor="middle" fill="#8b949e">Writing about databases, MVCC, and Python.</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, sans-serif; fill: #ffffff; }
+      .glass-bg { fill: #0d0e16; }
+    </style>
+  </defs>
+
+  <rect width="798" height="198" x="1" y="1" rx="24" class="glass-bg" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+  <g transform="translate(50, 20)">
+    <circle cx="100" cy="80" r="40" fill="rgba(244, 114, 182, 0.1)" stroke="#f472b6" stroke-width="2"/>
+    <text x="100" y="95" font-size="40" font-weight="bold" fill="#f472b6" text-anchor="middle">@</text>
+    <text x="180" y="80" font-size="28" fill="#f472b6" font-style="italic">gopal-krishna</text>
+    <path d="M 180,90 Q 220,110 260,90" fill="none" stroke="#f472b6" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(450, 40)">
+    <g transform="translate(0, 0)">
+      <rect width="140" height="40" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.2)"/>
+      <text x="15" y="25" font-size="16">🐙</text>
+      <text x="45" y="25" font-size="14">GitHub</text>
+      <text x="110" y="25" font-size="14" fill="#22d3ee">
+        →
+        <animateTransform attributeName="transform" type="translate" values="0,0; 5,0; 0,0" dur="1.5s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <g transform="translate(160, 0)">
+      <rect width="140" height="40" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.2)"/>
+      <text x="15" y="25" font-size="16">💼</text>
+      <text x="45" y="25" font-size="14">LinkedIn</text>
+      <text x="110" y="25" font-size="14" fill="#22d3ee">
+        →
+        <animateTransform attributeName="transform" type="translate" values="0,0; 5,0; 0,0" dur="1.5s" repeatCount="indefinite" begin="0.5s"/>
+      </text>
+    </g>
+
+    <g transform="translate(0, 60)">
+      <rect width="140" height="40" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.2)"/>
+      <text x="15" y="25" font-size="16">✉️</text>
+      <text x="45" y="25" font-size="14">Email</text>
+      <text x="110" y="25" font-size="14" fill="#22d3ee">
+        →
+        <animateTransform attributeName="transform" type="translate" values="0,0; 5,0; 0,0" dur="1.5s" repeatCount="indefinite" begin="1s"/>
+      </text>
+    </g>
+    
+    <g transform="translate(160, 60)">
+      <rect width="140" height="40" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.2)"/>
+      <text x="15" y="25" font-size="16">✍️</text>
+      <text x="45" y="25" font-size="14">Blog</text>
+      <text x="110" y="25" font-size="14" fill="#22d3ee">
+        →
+        <animateTransform attributeName="transform" type="translate" values="0,0; 5,0; 0,0" dur="1.5s" repeatCount="indefinite" begin="1.5s"/>
+      </text>
+    </g>
+  </g>
+</svg>
