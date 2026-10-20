@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="./hero.svg?v=3" width="800" alt="Gopal Krishna Jha - Hero" />
+  <img src="https://raw.githubusercontent.com/gopal-krishna-jha/gopal-krishna-jha/main/hero.svg?v=6" width="800" alt="Gopal Krishna Jha - Hero" />
 </div>
 
 <div align="center">
-  <img src="./about-life.svg?v=3" width="800" alt="About and Hobbies" />
+  <img src="https://raw.githubusercontent.com/gopal-krishna-jha/gopal-krishna-jha/main/about-life.svg?v=6" width="800" alt="About and Hobbies" />
 </div>
 
 <div align="center">
-  <img src="./stack.svg?v=3" width="800" alt="Tech Orbit and Skills" />
+  <img src="https://raw.githubusercontent.com/gopal-krishna-jha/gopal-krishna-jha/main/stack.svg?v=6" width="800" alt="Tech Orbit and Skills" />
 </div>
 
 ### 💻 Comprehensive Tech Stack
@@ -57,16 +57,16 @@
 <br />
 
 <div align="center">
-  <img src="./id-dashboard.svg?v=3" width="800" alt="ID Badge and Dashboard" />
+  <img src="https://raw.githubusercontent.com/gopal-krishna-jha/gopal-krishna-jha/main/id-dashboard.svg?v=6" width="800" alt="ID Badge and Dashboard" />
 </div>
 
 ### 🌃 Contributions
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="800" alt="3D Contribution City" />
+  <img src="https://raw.githubusercontent.com/gopal-krishna-jha/gopal-krishna-jha/main/profile-3d-contrib/profile-night-view.svg?v=6" width="800" alt="3D Contribution City" />
 </div>
 
 <div align="center">
-  <img src="./connect.svg?v=3" width="800" alt="Connect with me" />
+  <img src="https://raw.githubusercontent.com/gopal-krishna-jha/gopal-krishna-jha/main/connect.svg?v=6" width="800" alt="Connect with me" />
 </div>
 
 <br />
