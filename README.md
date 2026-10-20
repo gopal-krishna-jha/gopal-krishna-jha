@@ -57,6 +57,7 @@
 <br />
 
 <div align="center">
+  <!-- Note: Change to id-dashboard.svg once your GitHub Action runs successfully -->
   <img src="./id-dashboard-template.svg?v=2" width="800" alt="ID Badge and Dashboard" />
 </div>
 
@@ -75,7 +76,7 @@
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote of the Day" />
   <br /><br />
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=gopal-krishna-jha&icon=0&color=0" alt="Visitor Count" />
+  <a href="https://github.com/gopal-krishna-jha">
+    <img src="https://komarev.com/ghpvc/?username=gopal-krishna-jha&label=Profile%20Views&color=22d3ee&style=flat" alt="Visitor Count" />
   </a>
 </div>
