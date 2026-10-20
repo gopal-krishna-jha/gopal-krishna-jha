@@ -1,0 +1,30 @@
+name: Update SVG Stats
+on:
+  schedule:
+    - cron: "0 0 * * *" 
+  workflow_dispatch: 
+jobs:
+  update-svg-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Fetch Real GitHub Stats and Update SVG
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: |
+          COMMITS=$(gh api graphql -f query='query { user(login: "'$USERNAME'") { contributionsCollection { contributionCalendar { totalContributions } } } }' --jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
+          STARS=$(gh api graphql -f query='query { user(login: "'$USERNAME'") { repositories(first: 100, ownerAffiliations: OWNER, isFork: false) { nodes { stargazerCount } } } }' --jq '[.data.user.repositories.nodes[].stargazerCount] | add')
+          PRS=$(gh api graphql -f query='query { user(login: "'$USERNAME'") { pullRequests(first: 1) { totalCount } } }' --jq '.data.user.pullRequests.totalCount')
+          COMMITS=${COMMITS:-0}
+          STARS=${STARS:-0}
+          PRS=${PRS:-0}
+          sed -e "s/{{COMMITS}}/$COMMITS/g" -e "s/{{STARS}}/$STARS/g" -e "s/{{PRS}}/$PRS/g" id-dashboard-template.svg > id-dashboard.svg
+      - name: Commit and Push Updated SVG
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add id-dashboard.svg
+          git commit -m "Auto-updated GitHub stats in dashboard SVG" || exit 0
+          git push
