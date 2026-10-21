@@ -92,7 +92,7 @@
     <g transform="translate(0, 20)">
       <rect width="110" height="70" rx="10" fill="rgba(34, 211, 238, 0.1)" stroke="#22d3ee"/>
       <text x="15" y="30" font-size="12" fill="#8b949e">Contributions</text>
-      <text x="15" y="55" font-size="22" font-weight="bold" class="mono">12</text>
+      <text x="15" y="55" font-size="22" font-weight="bold" class="mono">23</text>
       
       <rect x="125" width="110" height="70" rx="10" fill="rgba(167, 139, 250, 0.1)" stroke="#a78bfa"/>
       <text x="140" y="30" font-size="12" fill="#8b949e">Stars</text>
